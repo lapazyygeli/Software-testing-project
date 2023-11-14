@@ -51,4 +51,13 @@ describe('Ceil function', () => {
   it('Should handle NaN by returning NaN', () => {
     expect(isNaN(ceil(NaN))).to.be.true;
   });
+
+  it('Must use default value when precision is not a number', () => {
+    expect(ceil(1.004, '🤣')).to.equal(2);
+  });
+
+  it('Must use default value when precision is not a number', () => {
+    expect(ceil('🤣')).to.be.NaN;
+  });
+  
 });
