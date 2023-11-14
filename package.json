@@ -1,19 +1,14 @@
 {
-  "name": "software-testing-project",
+  "name": "software-testing-assignment",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no tests are implemented yet \" && exit 1"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "chai": "^4.3.10",
-    "mocha": "^10.2.0"
-  }
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
 }
