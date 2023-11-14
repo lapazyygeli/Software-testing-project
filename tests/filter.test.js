@@ -25,6 +25,10 @@ describe('Filter function', () => {
         expect(filter(numbers, () => {})).to.equal(numbers);
     });
 
+    it('Should handle non-array input', () => {
+        expect(filter(1, () => true)).to.deep.equal([[]]);
+    });
+
     it('Should handle a predicate that filters all elements', () => {
         const numbers = [1, 2, 3, 4, 5];
         const result = filter(numbers, () => false);
