@@ -1,6 +1,5 @@
 import { expect } from 'chai';
 
-// Import the add function from add.js
 import add from '../src/add.js';
 
 describe('Add function', () => {
