@@ -7,6 +7,6 @@ import add from '../src/add.js';
 describe('add function', () => {
   // Test case 1
   it('should pass the sample test', () => {
-    expect(add(1,1)).to.equal(2);
+    expect(add(1, 1)).to.equal(2);
   });
 });

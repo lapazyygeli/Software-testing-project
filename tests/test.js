@@ -1,5 +1,4 @@
-const chai = require('chai');
-const expect = chai.expect;
+import { expect } from 'chai';
 
 describe('Example Test Suite', () => {
   it('should pass the sample test', () => {
