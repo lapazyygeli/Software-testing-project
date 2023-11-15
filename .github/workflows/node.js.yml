@@ -33,6 +33,9 @@ jobs:
       run: 
         npm install
 
+    - run: npm install --save-dev mocha
+    - run: npm install --save-dev chai
+
     - name: npm test
       run: 
         npm test
