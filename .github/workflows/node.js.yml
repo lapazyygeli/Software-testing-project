@@ -29,9 +29,12 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         
-    - name: npm install, make test-coverage
-      run: |
+    - name: npm install
+      run: 
         npm install
+
+    - name: npm test
+      run: 
         npm test
 
     - name: Coveralls
