@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha tests/**/*.js --reporter mocha-lcov-reporter > coverage/coverage.lcov"
+    "test": "mocha tests/**/*.js --reporter mocha-lcov-reporter > coverage/coverage.lcov",
+    "pretest": "mkdir -p coverage"
   },
   "author": "",
   "license": "MIT",
