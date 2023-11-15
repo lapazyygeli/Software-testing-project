@@ -35,8 +35,9 @@ jobs:
     - name: Create coverage directory
       run: mkdir -p coverage
 
-    - name: Run tests and generate coverage report
-      run: npm test
+    - name: Run Tests
+      run: npx mocha tests/**/*.js --reporter mocha-lcov-reporter > coverage/coverage.lcov
+
 
     - name: Coveralls
       run: |
