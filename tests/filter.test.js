@@ -3,7 +3,7 @@ import { expect } from 'chai';
 import filter from '../src/filter.js';
 
 
-describe('Filter function', () => {
+describe('filter function', () => {
     it('Should filter elements based on the given predicate', () => {
         const users = [
             { 'user': 'barney', 'active': true },

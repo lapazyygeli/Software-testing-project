@@ -3,7 +3,7 @@ import { expect } from 'chai';
 // Import the ceil function from ceil.js
 import ceil from '../src/ceil.js';
 
-describe('Ceil function', () => {
+describe('ceil function', () => {
   it('Should round up a positive decimal number to the nearest integer', () => {
     expect(ceil(4.006)).to.equal(5);
   });
