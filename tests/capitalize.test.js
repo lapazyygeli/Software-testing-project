@@ -39,4 +39,8 @@ describe('capitalize function', () => {
     it('Should return empty string when undefined is given', () => {
         expect(capitalize(undefined)).to.equal('');
     });
+
+    it('Should handle strings with accented characters', () => {
+        expect(capitalize('áccent')).to.equal('Áccent');
+    });
 });
