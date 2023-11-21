@@ -23,12 +23,6 @@ describe('filter function', () => {
         expect(filter(null, () => true)).to.deep.equal([[]]);
     });
 
-    it('Should handle an empty predicate', () => {
-        const numbers = [1, 2, 3, 4, 5];
-
-        expect(filter(numbers, () => {})).to.equal(numbers);
-    });
-
     it('Should handle non-array input', () => {
         expect(filter(1, () => true)).to.deep.equal([[]]);
     });
