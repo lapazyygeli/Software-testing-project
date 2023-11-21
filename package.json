@@ -7,11 +7,6 @@
   "scripts": {
     "test": "c8 --reporter=lcov mocha tests"
   },
-  "c8": {
-    "include": [
-      "src/*.js"
-    ]
-  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
