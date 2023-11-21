@@ -20,6 +20,10 @@ describe('toNumber function', () => {
     });
 
     it('Should return NaN when symbol is given', () => {
+        expect(toNumber(Symbol('🤣'))).to.be.NaN;
+    });
+
+    it('Should return NaN when non-number string is given', () => {
         expect(toNumber('🤣')).to.be.NaN;
     });
 
