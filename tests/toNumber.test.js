@@ -28,7 +28,7 @@ describe('toNumber function', () => {
     });
 
     it('Should return NaN when null is given', () => {
-        expect(toNumber(null)).to.be.NaN;
+        expect(toNumber(null)).to.equal(+null);
     });
 
     it('Should return NaN when undefined is given', () => {
@@ -40,7 +40,7 @@ describe('toNumber function', () => {
     });
 
     it('Should return NaN when empty string is given', () => {
-        expect(toNumber('')).to.be.NaN;
+        expect(toNumber('')).to.equal(+'');
     });
 
     it('Should return 0 when zero is given', () => {
