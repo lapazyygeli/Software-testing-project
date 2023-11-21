@@ -19,6 +19,10 @@ describe('filter function', () => {
         expect(filter([], () => true)).to.deep.equal([[]]);
     });
 
+    it('Should handle null array', () => {
+        expect(filter(null, () => true)).to.deep.equal([[]]);
+    });
+
     it('Should handle an empty predicate', () => {
         const numbers = [1, 2, 3, 4, 5];
 
