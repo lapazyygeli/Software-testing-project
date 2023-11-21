@@ -19,6 +19,10 @@ describe('toString function', () => {
         expect(toString(null)).to.equal('');
     });
 
+    it('Should convert symbol into string', () => {
+        expect(toString(Symbol('🤣'))).to.equal('🤣');
+    });
+
     it('Should return same string when string is given', () => {
         expect(toString('hello')).to.equal('hello');
     });
