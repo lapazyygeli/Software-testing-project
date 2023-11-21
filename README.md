@@ -2,7 +2,8 @@
 
 ## Purpose of this repository
 
-[![Coverage Status](https://coveralls.io/repos/github/lapazyygeli/Software-testing-project/badge.svg?branch=main)](https://coveralls.io/github/lapazyygeli/Software-testing-project?branch=main) https://coveralls.io/github/lapazyygeli/Software-testing-project
+[![Coverage Status](https://coveralls.io/repos/github/lapazyygeli/Software-testing-project/badge.svg?branch=main)](https://coveralls.io/github/lapazyygeli/Software-testing-project?branch=main)
+https://coveralls.io/github/lapazyygeli/Software-testing-project
 
 This is a project template for students participating in Software Testing course
 at Tampere University.
