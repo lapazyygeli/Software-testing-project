@@ -7,10 +7,10 @@
 
 https://coveralls.io/github/lapazyygeli/Software-testing-project
 
-This is a project template for students participating in Software Testing course
+This is a testing project that used a template for students participating in Software Testing course
 at Tampere University.
 
-The repository only contains the source code that is under testing, `package.json` skeleton
+The repository only contains the source code that is under testing, test functions, `package.json` skeleton
 and LICENSE file.
 
 Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
